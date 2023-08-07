@@ -1,0 +1,5 @@
+first_name = input('Hello, what is your name?:')
+print(f'Hello {first_name}.')
+age = input('How old are you?:')
+where_are_you_from = input('Where are you from?:')
+print(f'You\'re {age} and you are from {where_are_you_from}? I have  been to {where_are_you_from} before! It\'s pretty nice!')
