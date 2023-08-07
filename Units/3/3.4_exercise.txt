@@ -1,0 +1,20 @@
+student_name = string 
+For example: [name = 'James']
+-
+manager_income = integer (can also be a float if there is decimal)
+for example: $80,000
+-
+interest_rate = float
+for example: 0.01
+-
+car_color = String
+For example: Car_color = 'Blue'
+-
+A phone number = String (due to it having "-")
+For example: 385-555-8989
+-
+The percentage of students that will pass this class = Float
+For example: 89.9%
+-
+The distance from utah to new york in miles = Float (due to there being a decimal of .0)
+For example: 2,224.0 mi
