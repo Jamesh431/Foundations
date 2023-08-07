@@ -1,0 +1,33 @@
+() NOT AND OR left-to-right
+
+True AND False OR True
+  # results in true
+
+False OR True AND NOT False
+  # results in true (when working with NOT it will turn the variable next to it the other way around)
+
+True OR (False OR True) AND False
+  # results in true again
+
+NOT(True OR False) AND NOT(True XOR True)
+  # False (in the boolean order of operations XOR is at the same level as regular ORs)
+
+True OR False AND True OR False
+  # results in true
+
+True AND (False AND (True OR False))
+  # results in False
+
+'''
+NOT
+  NOT is a unary operator, meaning it only operates on one argument. NOT simply negates the value of the argument, turning True into False or False into True.
+
+AND
+  AND requires that BOTH of the arguments are True in order for the expression to be True. If either, or both, of the arguments are False, then the expression is False.
+
+OR
+  OR only requires one of the two arguments to be True in order for the boolean expression to be True. So, if either, or both of the arguments are True, then the expression is True. If BOTH of the arguments are False, then the expression is False.
+
+XOR
+  XOR stands for eXlusive OR and operates mostly on the same principle as OR, with one exception. The exclusive part says that either of the arguments must be True, BUT, not both of them.
+'''
